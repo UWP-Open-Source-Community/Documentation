@@ -1,13 +1,13 @@
 
 
 # List of Programs to Convert
-List of Programs to convert
+This is the list of applications that have to be converted in UWP using the Desktop App Converter
 
-| Program | Link Original Version Repo | Link UWP Version Repo | Dial Support |
-|----------|-------------|------|--------|
-| Atom | https://github.com/atom/atom | | Under Consideration |
-| Mixxx | https://github.com/mixxxdj/mixxx |  | Under Consideration |
-| Regard 3D | https://github.com/rhiestan/Regard3D |  | Under Consideration |
-| Dilay| https://github.com/abau/dilay |  | Under Consideration |
-| Putty |  |  | Under Consideration |
+| Program | Link Original Version Repo | Link UWP Version Repo | Dial Support | Live Tiles Support | Notifications Support | 
+|----------|-------------|------|--------|------|--------|----------|
+| Atom | https://github.com/atom/atom | |  | | | |
+| Mixxx | https://github.com/mixxxdj/mixxx |  | | | | |
+| Regard 3D | https://github.com/rhiestan/Regard3D |  | | | | |
+| Dilay| https://github.com/abau/dilay |  | | | | |
+| Putty |  |  | Under Consideration | | | |
     
