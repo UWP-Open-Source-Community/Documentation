@@ -1,5 +1,5 @@
 # ProgramsToConvert
-List of Programs to convert
-mixxx.org
-Dilay 3D
-Regard3D
+List of Programs to convert:
+mixxx.org,
+Dilay 3D,
+Regard3D,
