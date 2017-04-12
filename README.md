@@ -1,5 +1,7 @@
 # ProgramsToConvert
 List of Programs to convert:
-mixxx.org,
-Dilay 3D,
-Regard3D,
+mixxx.org -> da provare a convertire
+
+Dilay 3D -> convertito
+
+Regard3D -> convertito
