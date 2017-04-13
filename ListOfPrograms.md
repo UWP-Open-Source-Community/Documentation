@@ -8,4 +8,5 @@ This is the list of applications that have to be converted in UWP using the Desk
 | Regard 3D | https://github.com/rhiestan/Regard3D |  | | | | |
 | Dilay| https://github.com/abau/dilay |  | | | | |
 | Putty |  |  |  | | | |
-| Libre Office | | | | | | |
+| Synfig| https://sourceforge.net/projects/synfig/?source=typ_redirect |  |  | | | |
+| Libre Office | | | | | | | |
