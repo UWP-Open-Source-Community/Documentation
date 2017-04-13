@@ -19,6 +19,10 @@ This is the list of applications that have to be converted in UWP using the Desk
 | Notepad++ |  https://github.com/notepad-plus-plus/notepad-plus-plus |  | GPL-2.0 | | | | |
 | CCleaner |  |  |  | | | | |
 | FileZilla |  |  |  | | | | |
+| Firefox |  |  |  | | | | |
+| Paint.NET |  |  |  | | | | |
+| Opera |  |  |  | | | | |
+| InkScape |  |  |  | | | | |
 
 
 
