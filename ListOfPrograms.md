@@ -1,4 +1,4 @@
-# List of Programs to Convert
+|# List of Programs to Convert
 This is the list of applications that have to be converted in UWP using the Desktop App Converter
 
 | Program | Link Original Version Repo | Link UWP Version Repo | Dial Support | Live Tiles Support | Notifications Support | Cortana Support|
@@ -10,6 +10,7 @@ This is the list of applications that have to be converted in UWP using the Desk
 | Putty |  |  |  | | | |
 | Synfig| https://sourceforge.net/projects/synfig/?source=typ_redirect |  |  | | | |
 | Libre Office | | | | | | | |
+| GimpShop |https://sourceforge.net/projects/gimpshop.mirror/?source=directory |  |  | | | |
 | Gimp| | | | | | | |
 | 7-Zip| | | | | | | |
 | Audacity| | | | | | | |
