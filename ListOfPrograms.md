@@ -11,3 +11,6 @@ This is the list of applications that have to be converted in UWP using the Desk
 | Synfig| https://sourceforge.net/projects/synfig/?source=typ_redirect |  |  | | | |
 | Libre Office | | | | | | | |
 | GimpShop |https://sourceforge.net/projects/gimpshop.mirror/?source=directory |  |  | | | |
+| Gimp| | | | | | | |
+| 7-Zip| | | | | | | |
+| Audacity| | | | | | | |
