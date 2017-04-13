@@ -3,7 +3,7 @@ This is the list of applications that have to be converted in UWP using the Proj
 
 | Program | Link Original Version Repo | Link UWP Version Repo | License |Dial Support | Live Tiles Support | Notifications Support | Cortana Support|
 |----------|-------------|------|--------|------|--------|--------|----|
-|  |  | |   | | | ||
+| Wikipedia |  | |   | | | ||
 |  |  |  | | | | ||
 |  |  |  | | | | ||
 
