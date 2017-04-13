@@ -14,3 +14,4 @@ This is the list of applications that have to be converted in UWP using the Desk
 | Gimp| | | | | | | |
 | 7-Zip| | | | | | | |
 | Audacity| | | | | | | |
+| VLC | | | | | | | 
