@@ -1,0 +1,108 @@
+﻿<?xml-stylesheet type="text/xsl" href="CARE_Output.xsl"?>
+<ConfigData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AppxFile Name="BridgeUWP" Publisher="CN=bridge10demo.com" Version="1.0.0.0">f:\output\4d56ffd1-fd76-45df-bc16-18726c6431f5\636269201359410477\BridgeUWP\BridgeUWP.appx</AppxFile>
+  <Report CreateDate="2017-04-04T16:30:47.5690405Z">
+    <ProcessorArchitecture>x64</ProcessorArchitecture>
+    <WindowsVersion>Microsoft Windows NT 10.0.14393.0</WindowsVersion>
+    <CareVersion>CARE_PowerShell, Version=0.0.0.2, Culture=neutral, PublicKeyToken=null</CareVersion>
+    <InvokeParams>{"AppxFile": [f:\output\4d56ffd1-fd76-45df-bc16-18726c6431f5\636269201359410477\BridgeUWP\BridgeUWP.appx],"OpenReportFileOnExit": [False],"Verbose": [True]}</InvokeParams>
+  </Report>
+  <Flows>
+    <Flow Description="Test for Drivers and Services">
+      <Rules>
+        <Rule>
+          <ServiceType>Registry</ServiceType>
+          <RuleDesc>Drivers cannot be installed</RuleDesc>
+          <RuleValue>REGISTRY\\MACHINE\\SYSTEM\\CurrentControlSet\\Enum\\.*</RuleValue>
+          <RuleViolationType>GlobalResource</RuleViolationType>
+          <Result>
+            <Passed>true</Passed>
+            <Value />
+          </Result>
+        </Rule>
+        <Rule>
+          <ServiceType>Registry</ServiceType>
+          <RuleDesc>NT Services are not supported</RuleDesc>
+          <RuleValue>REGISTRY\\MACHINE\\SYSTEM\\CurrentControlSet\\Services\\.*</RuleValue>
+          <RuleViolationType>NTService</RuleViolationType>
+          <Result>
+            <Passed>true</Passed>
+            <Value />
+          </Result>
+        </Rule>
+      </Rules>
+    </Flow>
+    <Flow Description="Test for DDE Exec registry verbs">
+      <Rules>
+        <Rule>
+          <ServiceType>Registry</ServiceType>
+          <RuleDesc>DDE Exec warning</RuleDesc>
+          <RuleValue>REGISTRY\\(MACHINE|USER)\\SOFTWARE\\Classes\\.*\\shell\\.*\n@=.*</RuleValue>
+          <RuleViolationType>DDEExec</RuleViolationType>
+          <Result>
+            <Passed>true</Passed>
+            <Value />
+          </Result>
+        </Rule>
+      </Rules>
+    </Flow>
+    <Flow Description="Validate Appx Manifest">
+      <Rules>
+        <Rule>
+          <ServiceType>Manifest</ServiceType>
+          <RuleDesc>Application Identity Name can't be empty</RuleDesc>
+          <RuleValue>Identity.Name</RuleValue>
+          <RuleViolationType>ManifestValue</RuleViolationType>
+          <Result>
+            <Passed>true</Passed>
+          </Result>
+        </Rule>
+        <Rule>
+          <ServiceType>Manifest</ServiceType>
+          <RuleDesc>Application Display Name can't be empty</RuleDesc>
+          <RuleValue>Properties.DisplayName</RuleValue>
+          <RuleViolationType>ManifestValue</RuleViolationType>
+          <Result>
+            <Passed>true</Passed>
+          </Result>
+        </Rule>
+      </Rules>
+    </Flow>
+    <Flow Description="Validate security policy settings">
+      <Rules>
+        <Rule>
+          <ServiceType>ExeChecker</ServiceType>
+          <RuleDesc>EXE can not request admin elevation</RuleDesc>
+          <RuleValue>requestedExecutionLevel level=\"requireAdministrator\"</RuleValue>
+          <RuleViolationType>AdminElevation</RuleViolationType>
+          <Result>
+            <Passed>true</Passed>
+          </Result>
+        </Rule>
+        <Rule>
+          <ServiceType>ExeChecker</ServiceType>
+          <RuleDesc>EXE can not request UIAccess</RuleDesc>
+          <RuleValue>requestedExecutionLevel .*uiAccess=\"true\"</RuleValue>
+          <RuleViolationType>UIAccess</RuleViolationType>
+          <Result>
+            <Passed>true</Passed>
+          </Result>
+        </Rule>
+      </Rules>
+    </Flow>
+    <Flow Description="Validate PE integrity">
+      <Rules>
+        <Rule>
+          <ServiceType>PEChecker</ServiceType>
+          <RuleDesc>PE Files must be validly signed</RuleDesc>
+          <RuleValue />
+          <RuleViolationType>SignatureIntegrity</RuleViolationType>
+          <Result>
+            <Passed>true</Passed>
+            <Value />
+          </Result>
+        </Rule>
+      </Rules>
+    </Flow>
+  </Flows>
+</ConfigData>

@@ -1,0 +1,327 @@
+﻿2016-07-16 08:10:45, Info                         [windeploy.exe] ------------------------------------------------
+2016-07-16 08:10:45, Info                         [windeploy.exe] WinDeploy.exe launched with command-line []...
+2016-07-16 08:10:45, Info                         [windeploy.exe] LogBootDeviceInfo:The firmware boot device ARC path is [multi(0)disk(0)rdisk(0)partition(1)] and NT path is [\Device\Harddisk0\Partition1].
+2016-07-16 08:10:45, Info                         [windeploy.exe] LogBootDeviceInfo:The system boot device ARC path is [multi(0)disk(0)rdisk(0)partition(1)] and NT path is [\Device\Harddisk0\Partition1].
+2016-07-16 08:10:45, Info                         [windeploy.exe] Waiting for essential OOBE services to start.
+2016-07-16 08:10:45, Info                         [windeploy.exe] Essential OOBE services started successfully.
+2016-07-16 08:10:45, Info                         [windeploy.exe] Windeploy: Sysprep mode is [0x0].
+2016-07-16 08:10:45, Info                         [windeploy.exe] Windeploy: Executing PreSysprep commands
+2016-07-16 08:10:45, Info                         [windeploy.exe] Found generalization state [0x4], setup.exe completion flag [False] --> launching setup.exe.
+2016-07-16 08:10:45, Info                         [windeploy.exe] Launching [C:\Windows\system32\oobe\setup.exe]...
+2016-07-16 08:10:54, Info                         [svchost.exe] Enter WinReIsWimBootEnabled
+2016-07-16 08:10:54, Info                         [svchost.exe] Parameters: pszWinDir: NULL
+2016-07-16 08:10:54, Info                         [svchost.exe] Exit WinReIsWimBootEnabled returns 0 with last error: 0x0
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] SetupUGC launched with command line [specialize]
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] SetupUGC running to process unattend settings for pass [specialize]
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] Processing any RunSynchronous setting...
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] Running commands is not yet in progress
+2016-07-16 08:12:27, Info       [0x090008] PANTHR CBlackboard::Open: C:\Windows\panther\commandexec\CommandExec succeeded.
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] Found run command in registry: description = [Do not filter Administrator token]
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] Found run command in registry: credentials = { domain is not specified, username is not specified, password info not logged }
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] Found run command in registry: will continue execution without examining exit code
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] Found run command in registry: path = [REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system /v FilterAdministratorToken /t REG_DWORD /d 0 /f]
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] Found RunSynchronous command: [REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system /v FilterAdministratorToken /t REG_DWORD /d 0 /f]
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] Found run command in registry: description = [Run staging script]
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] Found run command in registry: credentials = { domain is not specified, username is not specified, password info not logged }
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] Found run command in registry: will continue execution without examining exit code
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] Found run command in registry: path = [REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce /v ScriptToRun /t REG_SZ /d "cmd.exe /c D:\stageScript.cmd"]
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] Found RunSynchronous command: [REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce /v ScriptToRun /t REG_SZ /d "cmd.exe /c D:\stageScript.cmd"]
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] Finished executing [REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system /v FilterAdministratorToken /t REG_DWORD /d 0 /f] synchronously
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] Process returned with exit code 0x0
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] Finished executing [REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce /v ScriptToRun /t REG_SZ /d "cmd.exe /c D:\stageScript.cmd"] synchronously
+2016-07-16 08:12:27, Info                         [SETUPUGC.EXE] Process returned with exit code 0x0
+2016-07-16 08:12:27, Info       [0x090009] PANTHR CBlackboard::Close: c:\windows\panther\commandexec\commandexec.
+2016-07-16 08:12:28, Info                         [SETUPUGC.EXE] Processing any RunAsynchronous setting...
+2016-07-16 08:12:28, Info                         [SETUPUGC.EXE] Running commands is not yet in progress
+2016-07-16 08:12:28, Info       [0x090008] PANTHR CBlackboard::Open: C:\Windows\panther\commandexec\CommandExec succeeded.
+2016-07-16 08:12:28, Info       [0x090009] PANTHR CBlackboard::Close: c:\windows\panther\commandexec\commandexec.
+2016-07-16 08:12:28, Info                         [SETUPUGC.EXE] Processing ExtendOSPartition setting (if present)...
+2016-07-16 08:12:28, Info                         [SETUPUGC.EXE] SetupUGC returning with exit code [0]
+2016-07-16 08:12:29, Info                         [windeploy.exe] Process exited with exit code [0x0]
+2016-07-16 08:12:29, Info                         [windeploy.exe] Windeploy: Executing PostSysprep commands
+2016-07-16 08:12:29, Info                         [windeploy.exe] OrchestrateCanStartOOBE: Found a non-OOBE service AudioEndpointBuilder; restart required before OOBE launch
+2016-07-16 08:12:29, Info                         [windeploy.exe] Reboot required after setup.exe and PostSysprep commands, before launching OOBE.
+2016-07-16 08:12:29, Info                         [windeploy.exe] Making sure that SystemSetupInProgress is cleared.
+2016-07-16 08:12:29, Info                         [windeploy.exe] An immediate reboot or shutdown was requested/required... rebooting / shutting down computer
+2016-07-16 08:12:29, Info                         [windeploy.exe] Flushing registry to disk...
+2016-07-16 08:12:29, Info                         [windeploy.exe] Flush took 16 ms.
+2016-07-16 08:12:29, Info                         [windeploy.exe] WinDeploy.exe exiting with code [0x0]
+2016-07-16 08:12:56, Info                         [windeploy.exe] ------------------------------------------------
+2016-07-16 08:12:56, Info                         [windeploy.exe] WinDeploy.exe launched with command-line []...
+2016-07-16 08:12:56, Info                         [windeploy.exe] LogBootDeviceInfo:The firmware boot device ARC path is [multi(0)disk(0)rdisk(0)partition(1)] and NT path is [\Device\Harddisk0\Partition1].
+2016-07-16 08:12:56, Info                         [windeploy.exe] LogBootDeviceInfo:The system boot device ARC path is [multi(0)disk(0)rdisk(0)partition(1)] and NT path is [\Device\Harddisk0\Partition1].
+2016-07-16 08:12:56, Info                         [windeploy.exe] Waiting for essential OOBE services to start.
+2016-07-16 08:12:56, Info                         [windeploy.exe] Essential OOBE services started successfully.
+2016-07-16 08:12:56, Info                         [windeploy.exe] Making sure that SystemSetupInProgress is cleared.
+2016-07-16 08:12:56, Info                         [windeploy.exe] Windeploy: Executing PreOOBE commands
+2016-07-16 08:12:56, Info                         [windeploy.exe] Publishing WNF notification to indicate uninstall is disabled
+2016-07-16 08:12:56, Info                         [windeploy.exe] OrchestratePublishWnfUninstallDisabled: Publishing WNF event for disabling uninstall
+2016-07-16 08:12:56, Info                         [windeploy.exe] Restoring system default power request
+2016-07-16 08:12:56, Info                         [windeploy.exe] Launching [C:\Windows\system32\oobe\oobeldr.exe /system]...
+2016-07-16 08:12:56, Info                         [oobeldr.exe] OOBELdr.exe launched with command-line [/system]...
+2016-07-16 08:12:56, Info                         [oobeldr.exe] OrchestrateUpdateImageState: Updating image state from [IMAGE_STATE_SPECIALIZE_RESEAL_TO_OOBE] --> [IMAGE_STATE_UNDEPLOYABLE]
+2016-07-16 08:12:56, Info                         [oobeldr.exe] Parsing command line arguments...
+2016-07-16 08:12:56, Info                         [oobeldr.exe] Parsing the following command line: [/system]
+2016-07-16 08:12:56, Info                         [oobeldr.exe] Status for unattend pass [oobeSystem] = 0x0
+2016-07-16 08:12:56, Info                         [oobeldr.exe] UnattendSearchExplicitPath: Found unattend file at [C:\Windows\Panther\unattend.xml]; examining for applicability.
+2016-07-16 08:12:56, Info                         [oobeldr.exe] UnattendSearchExplicitPath: Found usable unattend file for pass [oobeSystem] at [C:\Windows\Panther\unattend.xml].
+2016-07-16 08:12:57, Info                         [oobeldr.exe] UnattendSearchExplicitPath: Found unattend file at [D:\unattend.xml]; examining for applicability.
+2016-07-16 08:12:57, Info                         [oobeldr.exe] UnattendSearchExplicitPath: Found usable unattend file for pass [oobeSystem] at [D:\unattend.xml].
+2016-07-16 08:12:57, Info                         [oobeldr.exe] Running oobeSystem pass with discovered unattend file [C:\Windows\Panther\unattend.xml]...
+2016-07-16 08:12:57, Info                         [oobeldr.exe] Caching copy of unattend file: [C:\Windows\Panther\unattend.xml] -- cached at --> [C:\Windows\panther\unattend.xml]
+2016-07-16 08:12:57, Info                         [oobeldr.exe] Source and destination paths are identical; skipping file copy.
+2016-07-16 08:12:57, Info                         [oobeldr.exe] Cached unattend file, returned: [%windir%\panther\unattend.xml]
+2016-07-16 08:12:57, Info                         [oobeldr.exe] Current pass status for [oobeSystem] is [0x0]
+2016-07-16 08:12:57, Info                         [oobeldr.exe] Applying data-only settings overrides using SMI...
+2016-07-16 08:12:57, Info                  CSI    00000001@2016/7/16:15:12:57.633 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7ff8990b6c49 @0x7ff899423c23 @0x7ff89943ac16 @0x7ff899411c81 @0x7ff8994109dd @0x7ff6327878fc)
+2016-07-16 08:12:58, Info                         [oobeldr.exe] Successfully applied data-only settings overrides.
+2016-07-16 08:12:58, Info                         [oobeldr.exe] Calling into RunSMIActionPass to execute unattend GCs for pass [oobeSystem]
+2016-07-16 08:12:58, Info                         [oobeldr.exe] [Action Queue] : GenerateActionQueue begin
+2016-07-16 08:12:58, Info                         [oobeldr.exe] [Action Queue] : Processing pass = oobeSystem
+2016-07-16 08:12:58, Info                         [oobeldr.exe] [Action Queue] : Generating queue file to C:\Windows\panther\actionqueue\oobeSystem.uaq
+2016-07-16 08:12:58, Info                         [oobeldr.exe] [Action Queue] : Identity 0: Microsoft-Windows-Shell-Setup, Culture=neutral, Version=10.0.14393.0, PublicKeyToken=31bf3856ad364e35, ProcessorArchitecture=amd64, versionScope=NonSxS
+2016-07-16 08:12:58, Info                         [oobeldr.exe] [Action Queue] : Using component order file C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.14393.0_none_36d3ccc3ddfd1ecb\GlobalInstallOrder.xml
+2016-07-16 08:12:58, Info                  CSI    00000001@2016/7/16:15:12:58.492 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7ff8990b6c49 @0x7ff8994b7cb5 @0x7ff8994b7baf @0x7ff8994b69c3 @0x7ff8994b7994 @0x7ff632787391)
+2016-07-16 08:12:58, Info                         [oobeldr.exe] [Action Queue] : Found manifest file C:\Windows\Winsxs\Manifests\amd64_microsoft-windows-shell-setup_31bf3856ad364e35_10.0.14393.0_none_ffcf3e270052d303.manifest
+2016-07-16 08:12:58, Info                         [oobeldr.exe] [Action Queue] : GenerateActionQueue finish (hr = 0x0)
+2016-07-16 08:12:58, Info                         [oobeldr.exe] [Action Queue] : ProcessActionQueue start
+2016-07-16 08:12:58, Info                         [oobeldr.exe] [Action Queue] : ProcessActionQueue using queue file C:\Windows\panther\actionqueue\oobeSystem.uaq
+2016-07-16 08:12:58, Info                         [oobeldr.exe] [Action Queue] : Command Line = C:\WINDOWS\SYSTEM32\RUNDLL32.EXE / arguments = shsetup.dll,SHUnattendedSetup / pass = oobeSystem / manifest path = C:\Windows\Winsxs\Manifests\amd64_microsoft-windows-shell-setup_31bf3856ad364e35_10.0.14393.0_none_ffcf3e270052d303.manifest
+2016-07-16 08:12:58, Info                         [oobeldr.exe] [Action Queue] : Executing command "C:\WINDOWS\SYSTEM32\RUNDLL32.EXE" shsetup.dll,SHUnattendedSetup oobeSystem
+2016-07-16 08:12:58, Info                         [Shell Unattend] Running 'oobeSystem' pass
+2016-07-16 08:12:58, Info                         [Shell Unattend] Display: Requested Display Settings [1024 x 768, 32 bpp, 64 hz]
+2016-07-16 08:12:58, Info                         [Shell Unattend] Display: Succesfully changed to requested display mode
+2016-07-16 08:12:58, Info                         [Shell Unattend] TimeZone: Time zone set to 'Pacific Standard Time' 
+2016-07-16 08:12:59, Info                         [Shell Unattend] UserAccounts: Password set for 'Administrator' 
+2016-07-16 08:12:59, Info                         [Shell Unattend] AutoLogon Password saved
+2016-07-16 08:12:59, Info                         [Shell Unattend] AutoLogon Domain is ''
+2016-07-16 08:12:59, Info                         [Shell Unattend] WinLogon DefaultDomainName set to ''
+2016-07-16 08:12:59, Info                         [Shell Unattend] AutoLogon Username is 'Administrator'
+2016-07-16 08:12:59, Info                         [Shell Unattend] AutoLogon: enabled local account 'Administrator' 
+2016-07-16 08:12:59, Info                         [Shell Unattend] AutoLogon: Using SID for 'Administrator'
+2016-07-16 08:12:59, Info                         [Shell Unattend] WinLogon DefaultUserName set to 'S-1-5-21-846287231-1316665040-1365207367-500'
+2016-07-16 08:12:59, Info                         [Shell Unattend] AutoLogon LogonCount = 1
+2016-07-16 08:12:59, Info                         [Shell Unattend] WinLogon AutoLogonCount set
+2016-07-16 08:12:59, Info                         [Shell Unattend] AutoLogon enabled
+2016-07-16 08:12:59, Info                         [Shell Unattend] Exiting 'oobeSystem' pass with status 0x00000000
+2016-07-16 08:12:59, Info                         [oobeldr.exe] [Action Queue] : process exit code = 0
+2016-07-16 08:12:59, Info                         [oobeldr.exe] [Action Queue] : Unattend action returned operation complete.
+2016-07-16 08:12:59, Info                         [oobeldr.exe] [Action Queue] : ProcessActionQueue finish (hr = 0x0)
+2016-07-16 08:12:59, Info                         [oobeldr.exe] Successfully completed execution of GC queue
+2016-07-16 08:12:59, Info                         [oobeldr.exe] Flushing registry to disk...
+2016-07-16 08:12:59, Info                         [oobeldr.exe] Flush took 78 ms.
+2016-07-16 08:12:59, Info                         [oobeldr.exe] Successfully completed RunSMIPass for oobeSystem.
+2016-07-16 08:12:59, Info                         [oobeldr.exe] Successfully ran oobeSystem pass.
+2016-07-16 08:12:59, Info                         [oobeldr.exe] Launching [C:\Windows\system32\oobe\msoobe.exe]...
+2016-07-16 08:12:59, Info                         [msoobe.exe] ----------------------------------------------------------
+2016-07-16 08:12:59, Info                         [msoobe.exe] Starting OOBE
+2016-07-16 08:12:59, Info                         [msoobe.exe] Calculated OOBE STARTUP FLAGS: [0x00000026]
+2016-07-16 08:12:59, Info                         [msoobe.exe] Beginning wait for service audiosrv (initial state SERVICE_START_PENDING, desired state SERVICE_RUNNING)
+2016-07-16 08:13:00, Info                         [msoobe.exe] Service audiosrv successfully reports in state SERVICE_RUNNING
+2016-07-16 08:13:00, Info                         [msoobe.exe] Successfully created first boot reg key
+2016-07-16 08:13:00, Info                         [msoobe.exe] No previous OOBE Stats found in registry
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin ComputerName Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin ConnectedUser Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Plugin ConnectedUser Plugin should not run
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin Cortana Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Plugin Cortana Plugin should not run
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin End Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin Enterprise Provisioning Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin Eula Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading EULA file for language [en-US], channel [Volume], edition [Enterprise]
+2016-07-16 08:13:00, Info                         [msoobe.exe] Successfully retrieved EULA path [C:\Windows\System32\en-US\Licenses\Volume\Enterprise\license.rtf]
+2016-07-16 08:13:00, Info                         [msoobe.exe] No OEM Eula specified.
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin HidPairing Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin Language Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Found [1] UI languages
+2016-07-16 08:13:00, Info                         [msoobe.exe] Successfully added language English (United States)
+2016-07-16 08:13:00, Info                         [msoobe.exe] Posted cache change notification for setting UI_SUPPORTED_LANGIDS.
+2016-07-16 08:13:00, Info                         [msoobe.exe] Posted cache change notification for setting LANGUAGE.
+2016-07-16 08:13:00, Info                         [msoobe.exe] Posted cache change notification for setting LANGISO639.
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin LocalUser Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Plugin LocalUser Plugin should not run
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin Misc Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Added IOOBEGlobalSettingsCacheListener Misc Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin OEMRegistration Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] OEM Machine Registration: Skipping - will be launched in User OOBE.
+2016-07-16 08:13:00, Info                         [msoobe.exe] Plugin OEMRegistration Plugin should not run
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin PID Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Added IOOBEGlobalSettingsCacheListener PID Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin ProtectPC Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin Proxy Configuration Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin RecommendedSettings Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Added IOOBEGlobalSettingsCacheListener RecommendedSettings Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin Region Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin RetailDemo Plugin
+2016-07-16 08:13:00, Info                         [msoobe.exe] Loading OOBE plugin TimeDate Plugin
+2016-07-16 08:13:01, Info                         [msoobe.exe] Added IOOBEGlobalSettingsCacheListener TimeDate Plugin
+2016-07-16 08:13:01, Info                         [msoobe.exe] Loading OOBE plugin UpgradeApps Plugin
+2016-07-16 08:13:01, Info                         [msoobe.exe] Plugin UpgradeApps Plugin should not run
+2016-07-16 08:13:01, Info                         [msoobe.exe] Loading OOBE plugin User OOBE Preparation Plugin
+2016-07-16 08:13:01, Info                         [msoobe.exe] Plugin User OOBE Preparation Plugin should not run
+2016-07-16 08:13:01, Info                         [msoobe.exe] Loading OOBE plugin Wireless Plugin
+2016-07-16 08:13:01, Info                         [msoobe.exe] Added IOOBEGlobalSettingsCacheListener Wireless Plugin
+2016-07-16 08:13:01, Info                         [msoobe.exe] Loading OOBE plugin ZDP Plugin
+2016-07-16 08:13:01, Info                         [msoobe.exe] Added IOOBEGlobalSettingsCacheListener ZDP Plugin
+2016-07-16 08:13:01, Info                         [msoobe.exe] Parsing oobe.xml files...
+2016-07-16 08:13:01, Info                         [msoobe.exe] Failed to load oobe.xml file at C:\Windows\system32\oobe\info\oobe.xml with hr=0x80070003
+2016-07-16 08:13:01, Info                         [msoobe.exe] Failed to load oobe.xml file at C:\Windows\system32\oobe\info\default\oobe.xml with hr=0x80070003
+2016-07-16 08:13:01, Info                         [msoobe.exe] Failed to load oobe.xml file at C:\Windows\system32\oobe\info\244\oobe.xml with hr=0x80070003
+2016-07-16 08:13:01, Info                         [msoobe.exe] Failed to load oobe.xml file at C:\Windows\system32\oobe\info\default\1033\oobe.xml with hr=0x80070003
+2016-07-16 08:13:01, Info                         [msoobe.exe] Failed to load oobe.xml file at C:\Windows\system32\oobe\info\244\1033\oobe.xml with hr=0x80070003
+2016-07-16 08:13:01, Info                         [msoobe.exe] Loading EULA file for language [en-US], channel [Volume], edition [Enterprise]
+2016-07-16 08:13:01, Info                         [msoobe.exe] Successfully retrieved EULA path [C:\Windows\System32\en-US\Licenses\Volume\Enterprise\license.rtf]
+2016-07-16 08:13:01, Info                         [msoobe.exe] No OEM Eula specified.
+2016-07-16 08:13:01, Info                         [msoobe.exe] Successfully executed initial mandatory task for plugin HidPairing Plugin
+2016-07-16 08:13:01, Info                         [msoobe.exe] Successfully executed initial mandatory task for plugin Wireless Plugin
+2016-07-16 08:13:01, Info                         [msoobe.exe] ExecuteInitialMandatoryTasks not implemented for plugin Proxy Configuration Plugin
+2016-07-16 08:13:01, Info                         [msoobe.exe] Attempting to start asynchronous notify ui language change.
+2016-07-16 08:13:01, Info                         [msoobe.exe] Successfully executed initial mandatory task for plugin Language Plugin
+2016-07-16 08:13:01, Info                         [msoobe.exe] Processing cache change notification for setting UI_SUPPORTED_LANGIDS.
+2016-07-16 08:13:01, Info                         [msoobe.exe] TASK: Begin running task NotifyUILanguageChange...
+2016-07-16 08:13:01, Info                         [msoobe.exe] TASK: Begin running task SaveEnabledInputMethods...
+2016-07-16 08:13:01, Info                         [msoobe.exe] Processing cache change notification for setting LANGUAGE.
+2016-07-16 08:13:01, Info                         [msoobe.exe] Processing cache change notification for setting LANGISO639.
+2016-07-16 08:13:01, Info                         [msoobe.exe] Posted cache change notification for setting NOTIFYLANGUAGEDONE.
+2016-07-16 08:13:01, Info                         [msoobe.exe] Processing cache change notification for setting NOTIFYLANGUAGEDONE.
+2016-07-16 08:13:01, Info                         [msoobe.exe] Successfully verified and committed UI language settings
+2016-07-16 08:13:01, Info                         [msoobe.exe] TASK: End successfully running task SaveEnabledInputMethods
+2016-07-16 08:13:01, Info                         [msoobe.exe] Successfully executed initial mandatory task for plugin Region Plugin
+2016-07-16 08:13:01, Info                         [msoobe.exe] ExecuteInitialMandatoryTasks not implemented for plugin RecommendedSettings Plugin
+2016-07-16 08:13:01, Info                         [msoobe.exe] TASK: Begin running task SetComputerName...
+2016-07-16 08:13:01, Info                         [msoobe.exe] Setting computer name to [DESKTOP-224P1HM]
+2016-07-16 08:13:01, Info                         [msoobe.exe] TASK: End successfully running task SetComputerName
+2016-07-16 08:13:01, Info                         [msoobe.exe] TASK: Begin running task SetAccountDomainSID...
+2016-07-16 08:13:01, Info                         [msoobe.exe] TASK: End successfully running task SetAccountDomainSID
+2016-07-16 08:13:01, Info                         [msoobe.exe] Beginning wait for service wlidsvc (initial state SERVICE_START_PENDING, desired state SERVICE_START_PENDING)
+2016-07-16 08:13:01, Info                         [msoobe.exe] Service wlidsvc successfully reports in state SERVICE_START_PENDING
+2016-07-16 08:13:01, Info                         [msoobe.exe] TASK: Begin running task WaitForService...
+2016-07-16 08:13:01, Info                         [msoobe.exe] Beginning wait for service w32time (initial state SERVICE_START_PENDING, desired state SERVICE_START_PENDING)
+2016-07-16 08:13:01, Info                         [msoobe.exe] Service w32time successfully reports in state SERVICE_START_PENDING
+2016-07-16 08:13:01, Info                         [msoobe.exe] Successfully signaled SCM event to start up services
+2016-07-16 08:13:01, Info                         [msoobe.exe] Posted cache change notification for setting COMPUTERNAME.
+2016-07-16 08:13:01, Info                         [msoobe.exe] Successfully executed initial mandatory task for plugin ComputerName Plugin
+2016-07-16 08:13:01, Info                         [msoobe.exe] Processing cache change notification for setting COMPUTERNAME.
+2016-07-16 08:13:01, Info                         [msoobe.exe] TASK: Begin running task GetProvisioningProviderListCreate...
+2016-07-16 08:13:01, Info                         [msoobe.exe] TASK: Begin running task WindowsRecoveryEnvironment...
+2016-07-16 08:13:01, Info                         [msoobe.exe] Installing Windows Recovery Environment
+2016-07-16 08:13:02, Info                         [msoobe.exe] TASK: Begin running task RemoveAdminProfile...
+2016-07-16 08:13:02, Info                         [msoobe.exe] Removing Administrator Profile
+2016-07-16 08:13:02, Info                         [msoobe.exe] TASK: End successfully running task GetProvisioningProviderListCreate
+2016-07-16 08:13:02, Info                         [msoobe.exe] Successfully executed initial mandatory task for plugin Enterprise Provisioning Plugin
+2016-07-16 08:13:02, Info                         [msoobe.exe] TASK: Begin running task QueueArsSystemTasksTask...
+2016-07-16 08:13:02, Info                         [msoobe.exe] Posted cache change notification for setting PRODUCTKEYSTATUS.
+2016-07-16 08:13:02, Info                         [msoobe.exe] Launched background PID install task from plugin's Initial Mandatory Tasks
+2016-07-16 08:13:02, Info                         [msoobe.exe] Posted cache change notification for setting PRODUCTKEYSTATUS.
+2016-07-16 08:13:02, Info                         [msoobe.exe] Successfully executed initial mandatory task for plugin PID Plugin
+2016-07-16 08:13:02, Info                         [msoobe.exe] ExecuteInitialMandatoryTasks not implemented for plugin Eula Plugin
+2016-07-16 08:13:02, Info                         [msoobe.exe] Successfully executed initial mandatory task for plugin ProtectPC Plugin
+2016-07-16 08:13:02, Info                         [msoobe.exe] Posted cache change notification for setting TIMESYNCSTATUS.
+2016-07-16 08:13:02, Info                         [msoobe.exe] Successfully executed initial mandatory task for plugin TimeDate Plugin
+2016-07-16 08:13:02, Info                         [msoobe.exe] Successfully executed initial mandatory task for plugin RetailDemo Plugin
+2016-07-16 08:13:02, Info                         [msoobe.exe] Successfully executed initial mandatory task for plugin ZDP Plugin
+2016-07-16 08:13:02, Info                         [msoobe.exe] Successfully executed initial mandatory task for plugin Misc Plugin
+2016-07-16 08:13:02, Info                         [msoobe.exe] ExecuteInitialMandatoryTasks not implemented for plugin End Plugin
+2016-07-16 08:13:02, Info                         [msoobe.exe] Found SkipMachineOOBE unattend setting.  Not showing wizard.
+2016-07-16 08:13:02, Info                         [msoobe.exe] ExecuteFinalMandatoryTasks not implemented for plugin HidPairing Plugin
+2016-07-16 08:13:02, Info                         [msoobe.exe] Successfully executed final mandatory task for plugin Wireless Plugin
+2016-07-16 08:13:02, Info                         [msoobe.exe] Successfully executed final mandatory task for plugin Proxy Configuration Plugin
+2016-07-16 08:13:02, Info                         [msoobe.exe] Processing cache change notification for setting PRODUCTKEYSTATUS.
+2016-07-16 08:13:02, Info                         [msoobe.exe] Processing cache change notification for setting PRODUCTKEYSTATUS.
+2016-07-16 08:13:02, Info                         [msoobe.exe] Processing cache change notification for setting TIMESYNCSTATUS.
+2016-07-16 08:13:02, Info                         [msoobe.exe] TASK: Begin running task InstallPid...
+2016-07-16 08:13:02, Info                         [msoobe.exe] Enter WinReOobeInstall
+2016-07-16 08:13:02, Info                         [msoobe.exe] winreSetRecoveryDirectorySecurity: Checking for recovery dir [C:\Recovery]
+2016-07-16 08:13:02, Info                         [msoobe.exe] winreSetRecoveryDirectorySecurity: Recovery dir already exists, nothing to do
+2016-07-16 08:13:02, Info                         [msoobe.exe] CheckRegKey Reg get value (PushButtonReset) failed. with error 0x2
+2016-07-16 08:13:02, Info                         [msoobe.exe] CheckRegKey Reg get value (Upgrade) failed. with error 0x2
+2016-07-16 08:13:02, Info                         [msoobe.exe] WinReOobeInstall Skipping auxiliary data collection
+2016-07-16 08:13:02, Info                         [msoobe.exe] TASK: Begin running task RemoveRetailDemoDataTask...
+2016-07-16 08:13:02, Info                         [msoobe.exe] Update enhanced config info is enabled.
+2016-07-16 08:13:02, Info                         [msoobe.exe] TASK: Begin running task CreateDirectoryJunctions...
+2016-07-16 08:13:02, Info                         [msoobe.exe] Creating directory junctions
+2016-07-16 08:13:02, Info                         [msoobe.exe] Beginning wait for service profsvc (initial state SERVICE_START_PENDING, desired state SERVICE_RUNNING)
+2016-07-16 08:13:03, Info                         [msoobe.exe] WinRE is installed
+2016-07-16 08:13:03, Info                         [msoobe.exe] TASK: End successfully running task CreateDirectoryJunctions
+2016-07-16 08:13:03, Info                         [msoobe.exe] Loading boot index 1
+2016-07-16 08:13:03, Info                         [msoobe.exe] Beginning wait for service Schedule (initial state SERVICE_START_PENDING, desired state SERVICE_RUNNING)
+2016-07-16 08:13:03, Info                         [msoobe.exe] Beginning wait for service netprofm (initial state SERVICE_START_PENDING, desired state SERVICE_RUNNING)
+2016-07-16 08:13:04, Info                         [msoobe.exe] Service profsvc successfully reports in state SERVICE_RUNNING
+2016-07-16 08:13:04, Info                         [msoobe.exe] Admin profile S-1-5-21-846287231-1316665040-1365207367-500 was not found.
+2016-07-16 08:13:04, Info                         [msoobe.exe] TASK: End successfully running task RemoveAdminProfile
+2016-07-16 08:13:05, Info                         [msoobe.exe] AppReadinessService QueueSystemTasks result [hr=0x00000000]
+2016-07-16 08:13:05, Info                         [msoobe.exe] TASK: End successfully running task QueueArsSystemTasksTask
+2016-07-16 08:13:05, Info                         [msoobe.exe] Installed product key ((null))
+2016-07-16 08:13:05, Info                         [msoobe.exe] Posted cache change notification for setting PRODUCTKEYSTATUS.
+2016-07-16 08:13:05, Info                         [msoobe.exe] Processing cache change notification for setting PRODUCTKEYSTATUS.
+2016-07-16 08:13:05, Info                         [msoobe.exe] TASK: End successfully running task InstallPid
+2016-07-16 08:13:05, Info                         [msoobe.exe] Service netprofm successfully reports in state SERVICE_RUNNING
+2016-07-16 08:13:05, Info                         [msoobe.exe] TASK: End successfully running task WaitForService
+2016-07-16 08:13:06, Info                         [msoobe.exe] Posted cache change notification for setting NETWORKSTATUS.
+2016-07-16 08:13:06, Info                         [msoobe.exe] Connectivity changed: No connection detected
+2016-07-16 08:13:06, Info                         [msoobe.exe] Successfully created Internet listener
+2016-07-16 08:13:06, Info                         [msoobe.exe] Processing cache change notification for setting NETWORKSTATUS.
+2016-07-16 08:13:06, Info                         [svchost.exe] Enter WinReIsWimBootEnabled
+2016-07-16 08:13:06, Info                         [svchost.exe] Parameters: pszWinDir: NULL
+2016-07-16 08:13:06, Info                         [svchost.exe] Exit WinReIsWimBootEnabled returns 0 with last error: 0x0
+2016-07-16 08:13:07, Info                         [msoobe.exe] WinReValidateRecoveryWimInternal took 4594 ms.
+2016-07-16 08:13:07, Info                         [msoobe.exe] WinReOobeInstall Resetting WinRE recovery action
+2016-07-16 08:13:07, Warning                      [msoobe.exe] RegOpenKeyEx(GP) failed: 0x2
+2016-07-16 08:13:07, Warning                      [msoobe.exe] WinReGetGroupPolicies failed with error code 0x2
+2016-07-16 08:13:07, Warning                      [msoobe.exe] NOTE: overwrite error code 0x2 because it is not critical
+2016-07-16 08:13:07, Info                         [msoobe.exe] WinRE config file path: C:\Windows\system32\Recovery\ReAgent.xml
+2016-07-16 08:13:07, Info                         [msoobe.exe] Update enhanced config info is enabled.
+2016-07-16 08:13:07, Info                         [msoobe.exe] WinRE is installed
+2016-07-16 08:13:07, Info                         [msoobe.exe] WinRE is installed at: \\?\GLOBALROOT\device\harddisk0\partition1\Recovery\WindowsRE
+2016-07-16 08:13:07, Info                         [msoobe.exe] System is WimBoot: FALSE
+2016-07-16 08:13:07, Info                         [msoobe.exe] WinRE image validated
+2016-07-16 08:13:07, Info                         [msoobe.exe] Update enhanced config info is enabled.
+2016-07-16 08:13:07, Info                         [msoobe.exe] WinRE is installed
+2016-07-16 08:13:07, Info                         [msoobe.exe] WinReOobeInstall Resealing volume if necessary
+2016-07-16 08:13:07, Info                         [msoobe.exe] WinReOobeInstall WinRE installation in OOBE completed
+2016-07-16 08:13:07, Info                         [msoobe.exe] Exit WinReOobeInstall return value: 1
+2016-07-16 08:13:07, Info                         [msoobe.exe] Successfully installed Windows Recovery Environment
+2016-07-16 08:13:07, Info                         [msoobe.exe] TASK: End successfully running task WindowsRecoveryEnvironment
+2016-07-16 08:13:07, Info                         [msoobe.exe] Service Schedule successfully reports in state SERVICE_RUNNING
+2016-07-16 08:13:07, Info                         [msoobe.exe] TASK: End successfully running task RemoveRetailDemoDataTask
+2016-07-16 08:13:08, Info                         [msoobe.exe] Successfully notified UI language change
+2016-07-16 08:13:08, Info                         [msoobe.exe] Posted cache change notification for setting NOTIFYLANGUAGEDONE.
+2016-07-16 08:13:08, Info                         [msoobe.exe] Processing cache change notification for setting NOTIFYLANGUAGEDONE.
+2016-07-16 08:13:08, Info                         [msoobe.exe] TASK: End successfully running task NotifyUILanguageChange
+2016-07-16 08:13:08, Info                         [msoobe.exe] Successfully executed final mandatory task for plugin Language Plugin
+2016-07-16 08:13:08, Info                         [msoobe.exe] Region Plugin successfully set default Dvd region
+2016-07-16 08:13:08, Info                         [msoobe.exe] Successfully executed final mandatory task for plugin Region Plugin
+2016-07-16 08:13:08, Info                         [msoobe.exe] ExecuteFinalMandatoryTasks not implemented for plugin RecommendedSettings Plugin
+2016-07-16 08:13:08, Info                         [msoobe.exe] ExecuteFinalMandatoryTasks not implemented for plugin ComputerName Plugin
+2016-07-16 08:13:08, Info                         [msoobe.exe] TASK: Begin running task ProvisionPackageCreate...
+2016-07-16 08:13:09, Info                         [msoobe.exe] TASK: End successfully running task ProvisionPackageCreate
+2016-07-16 08:13:09, Info                         [msoobe.exe] Posted cache change notification for setting REBOOT.
+2016-07-16 08:13:09, Info                         [msoobe.exe] Successfully executed final mandatory task for plugin Enterprise Provisioning Plugin
+2016-07-16 08:13:09, Info                         [msoobe.exe] Processing cache change notification for setting REBOOT.
+2016-07-16 08:13:09, Info                         [msoobe.exe] Successfully executed final mandatory task for plugin PID Plugin
+2016-07-16 08:13:09, Info                         [msoobe.exe] ExecuteFinalMandatoryTasks not implemented for plugin Eula Plugin
+2016-07-16 08:13:09, Info                         [msoobe.exe] ExecuteFinalMandatoryTasks not implemented for plugin ProtectPC Plugin
+2016-07-16 08:13:09, Info                         [msoobe.exe] Successfully executed final mandatory task for plugin TimeDate Plugin
+2016-07-16 08:13:09, Info                         [msoobe.exe] Successfully executed final mandatory task for plugin RetailDemo Plugin
+2016-07-16 08:13:09, Info                         [msoobe.exe] Successfully executed final mandatory task for plugin ZDP Plugin
+2016-07-16 08:13:09, Info                         [msoobe.exe] TASK: Begin running task ResetNotificationTimerTask...
+2016-07-16 08:13:09, Info                         [msoobe.exe] TASK: End successfully running task ResetNotificationTimerTask
+2016-07-16 08:13:09, Info                         [msoobe.exe] Successfully executed final mandatory task for plugin Misc Plugin
+2016-07-16 08:13:09, Info                         [msoobe.exe] ExecuteFinalMandatoryTasks not implemented for plugin End Plugin
+2016-07-16 08:13:09, Info                         [msoobe.exe] Ensuring netprofm task is complete.
+2016-07-16 08:13:09, Info                         [msoobe.exe] Wrote End-of-OOBE Timestamp to Registry
+2016-07-16 08:13:09, Info                         [msoobe.exe] License for msoobe-FirstLogonAnim-MayBeDisabled is true
+2016-07-16 08:13:09, Info                         [msoobe.exe] Host returned successfully
+2016-07-16 08:13:09, Info                         [msoobe.exe] Ending OOBE
+2016-07-16 08:13:09, Info                         [msoobe.exe] ----------------------------------------------------------
+2016-07-16 08:13:09, Info                         [oobeldr.exe] OrchestrateUpdateImageState: Updating image state from [IMAGE_STATE_UNDEPLOYABLE] --> [IMAGE_STATE_COMPLETE]
+2016-07-16 08:13:09, Info                         [oobeldr.exe] OOBELdr.exe exiting with code [0x0]...
+2016-07-16 08:13:09, Info                         [windeploy.exe] Process exited with exit code [0x0]
+2016-07-16 08:13:09, Info                         [windeploy.exe] Windeploy: Executing PostOOBE commands
+2016-07-16 08:13:09, Info                         [windeploy.exe] Publishing WNF notification to indicate OOBE completion
+2016-07-16 08:13:09, Info                         [windeploy.exe] OrchestrateWnfPublishOobeCompletion: Publishing WNF event for OOBE completion; OOBE completion flag = TRUE
+2016-07-16 08:13:10, Info                         [windeploy.exe] Windeploy: Executing move/cleanup commands
+2016-07-16 08:13:10, Info                         [windeploy.exe] WinDeploy.exe exiting with code [0x0]
+2017-04-04 16:29:18, Info                         [svchost.exe] Enter WinReIsWimBootEnabled
+2017-04-04 16:29:18, Info                         [svchost.exe] Parameters: pszWinDir: NULL
+2017-04-04 16:29:18, Info                         [svchost.exe] Exit WinReIsWimBootEnabled returns 0 with last error: 0x0
