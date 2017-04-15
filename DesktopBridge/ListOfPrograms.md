@@ -20,7 +20,7 @@ This is the list of applications that have to be converted in UWP using the Desk
 | CCleaner |  |  |  | | | | ||
 | FileZilla |  |  |  | | | | ||
 | Firefox |  |  |  | | | | ||
-| Paint.NET |  |  |  | | | | ||
+| Paint.NET |https://code.google.com/archive/p/openpdn/  |  |  | | | | ||
 | Opera |  |  |  | | | | ||
 | InkScape |  |  |  | | | | ||
 
