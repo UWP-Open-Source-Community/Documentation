@@ -23,6 +23,7 @@ This is the list of applications that have to be converted in UWP using the Desk
 | Paint.NET |https://code.google.com/archive/p/openpdn/  |  |  | | | | ||
 | Opera |  |  |  | | | | ||
 | InkScape |  |  |  | | | | ||
+| Bot Framework Channel Emulator |  |  |  | | | | ||
 
 
 
