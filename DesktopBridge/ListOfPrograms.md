@@ -24,6 +24,7 @@ This is the list of applications that have to be converted in UWP using the Desk
 | Opera |  |  |  | | | | ||
 | InkScape |  | https://github.com/UWP-Open-Source-Community/InkscapeUWP |  | | | | ||
 | Bot Framework Channel Emulator |  |  |  | | | | ||
+| ExeToMSI|||||||||
 
 
 
