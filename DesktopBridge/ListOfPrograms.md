@@ -1,7 +1,7 @@
 # List of Programs to Convert
 This is the list of applications that have to be converted in UWP using the Desktop App Converter
 
-| Program | Link Original Version Repo | Link UWP Version Repo | License | Dial Support | Live Tiles Support | Notifications Support | Cortana Support | Developer | Authorization | Publication |
+| Program | Link Original Version Repo | Link UWP Version Repo | License | Dial Support | Live Tiles Support | Notifications Support | Cortana Support | Developer | Authorization | Publication|
 |----------|-------------|------|--------|------|--------|--------|----|---|
 | 7-Zip| https://sourceforge.net/projects/sevenzip/ | // |GPL-2.0 | / | // | // | // | // | UWP Open Source Community | No | // |
 | Atom | https://github.com/atom/atom | https://github.com/UWP-Open-Source-Community/Atom | MIT | // | // | // | // | UWP Open Source Community | No | // |
