@@ -1,11 +1,11 @@
 # List of Programs to Convert
 This is the list of applications that have to be converted in UWP using the Desktop App Converter
 
-| Program | Link Original Version Repo | Link UWP Version Repo | License | Dial Support | Live Tiles Support | Notifications Support | Cortana Support | Developer | Authorization | Publication|
+| Program | Link Original Version Repo | Link UWP Version Repo | License | Cortana Support | Live Tiles Support | Notifications Support | Dial Support | Developer | Authorization | Publication |
 |----------|-------------|------|--------|------|--------|--------|----|---|
-| 7-Zip| https://sourceforge.net/projects/sevenzip/ | // |GPL-2.0 | / | // | // | // | // | UWP Open Source Community | No | // |
+| 7-Zip| https://sourceforge.net/projects/sevenzip | // |GPL-2.0 | // | // | // | // | UWP Open Source Community | No | // |
 | Atom | https://github.com/atom/atom | https://github.com/UWP-Open-Source-Community/Atom | MIT | // | // | // | // | UWP Open Source Community | No | // |
-| Audacity|https://github.com/audacity/audacity | // |GPL-2.0 | / | // | // | // | // | UWP Open Source Community | No | // |
+| Audacity| https://github.com/audacity/audacity | // |GPL-2.0 | // | // | // | // | // | UWP Open Source Community | No | // |
 | Bot Framework Channel Emulator | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | CCleaner | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Dilay| https://github.com/abau/dilay | https://github.com/UWP-Open-Source-Community/Dilay | GPL-3.0 | // | // | // | // | UWP Open Source Community | Yes | // |
