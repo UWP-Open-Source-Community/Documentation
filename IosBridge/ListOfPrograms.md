@@ -6,8 +6,5 @@ This is the list of applications that have to be converted in UWP using the Proj
 
 | Wikipedia | // | // | // | // | // | // | // | // | // | // |   
 | WordPress | // | // | // | // | // | // | // | // | // | // | 
-|  |  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |  |
 
 
