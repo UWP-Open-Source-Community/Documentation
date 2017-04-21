@@ -12,11 +12,11 @@ This is the list of applications that have to be converted in UWP using the Desk
 | ExeToMSI| // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | FileZilla | // | https://github.com/UWP-Open-Source-Community/FileZilla | // | // | // | // | // | UWP Open Source Community | No | // |
 | Firefox | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
-| GimpShop | https://sourceforge.net/projects/gimpshop.mirror/?source=directory | // | //  | // | // | // | // | UWP Open Source Community | No |
+| GimpShop | https://sourceforge.net/projects/gimpshop.mirror/?source=directory | // | //  | // | // | // | // | UWP Open Source Community | No | // |
 | Gimp| https://github.com/GNOME/gimp | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | InkScape | // | https://github.com/UWP-Open-Source-Community/InkscapeUWP | // | // | // | // | // | UWP Open Source Community | No | // |
 | IrfanView | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
-| Libre Office | http://it.libreoffice.org/download/libreoffice-fresh/?type=src| | MPLv2 | // | // | // | // | // | UWP Open Source Community| No | No | // |
+| Libre Office | http://it.libreoffice.org/download/libreoffice-fresh/?type=src| | MPLv2 | // | // | // | // | // | UWP Open Source Community| No | // |
 | Mixxx | https://github.com/mixxxdj/mixxx | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Notepad++ |  https://github.com/notepad-plus-plus/notepad-plus-plus | https://github.com/UWP-Open-Source-Community/NotepadPlusPlus | GPL-2.0 | No | // | // | // | // | UWP Open Source Community | // |
 | Opera | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
