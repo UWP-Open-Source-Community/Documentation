@@ -1,16 +1,16 @@
 # List of Programs to Convert
 This is the list of applications that have to be converted in UWP using the Desktop App Converter
 
-| Program | Link Original Version Repo | Link UWP Version Repo | License |Dial Support | Live Tiles Support | Notifications Support | Cortana Support | Management  |
+| Program | Link Original Version Repo | Link UWP Version Repo | License | Dial Support | Live Tiles Support | Notifications Support | Cortana Support | Management  |
 |----------|-------------|------|--------|------|--------|--------|----|---|
 | 7-Zip| https://sourceforge.net/projects/sevenzip/ | |GPL-2.0 | | | | |||
-| Atom | https://github.com/atom/atom | | MIT  | | | |||
+| Atom | https://github.com/atom/atom | https://github.com/UWP-Open-Source-Community/Atom | MIT  | | | |||
 | Audacity|https://github.com/audacity/audacity | |GPL-2.0 | | | | |||
 | Bot Framework Channel Emulator |  |  |  | | | | ||
 | CCleaner |  |  |  | | | | ||
 | Dilay| https://github.com/abau/dilay | https://github.com/UWP-Open-Source-Community/Dilay | GPL-3.0 | | | |||
 | ExeToMSI|||||||||
-| FileZilla |  |  |  | | | | ||
+| FileZilla |  | https://github.com/UWP-Open-Source-Community/FileZilla |  | | | | ||
 | Firefox |  |  |  | | | | ||
 | GimpShop |https://sourceforge.net/projects/gimpshop.mirror/?source=directory |  |  | | | |||
 | Gimp|https://github.com/GNOME/gimp | | | | | | |||
