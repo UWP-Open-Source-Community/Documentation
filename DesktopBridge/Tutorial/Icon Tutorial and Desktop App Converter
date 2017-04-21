@@ -1,0 +1,10 @@
+Video tutorial that explain how use Desktop App Converter and edit the appx file for add icons or extensions:
+https://channel9.msdn.com/events/Build/2016/P504
+
+
+Focus on tool "MakeAppx.exe" that is showed in the video tutorial (Italian Language):
+https://docs.microsoft.com/it-it/windows/uwp/packaging/create-app-package-with-makeappx-tool
+
+
+Tutorial on how modify an app with Visual Studio (Italian Language):
+https://docs.microsoft.com/it-it/windows/uwp/packaging/packaging-uwp-apps
