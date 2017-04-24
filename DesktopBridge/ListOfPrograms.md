@@ -1,5 +1,10 @@
 # List of Programs to Convert
 This is the list of applications that have to be converted in UWP using the Desktop App Converter
+
+Base for add new App in the list:
+|  | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
+
+
 | Program | Link Original Version Repo | Link UWP Version Repo | License | Cortana Support | Live Tiles Support | Notifications Support | Dial Support | Developer | Authorization | Publication |
 |---------|----------------------------|-----------------------|---------|-----------------|--------------------|-----------------------|--------------|-----------|---------------|-------------|
 | 7-Zip| https://sourceforge.net/projects/sevenzip | // |GPL-2.0 | // | // | // | // | UWP Open Source Community | No | // |
@@ -15,6 +20,7 @@ This is the list of applications that have to be converted in UWP using the Desk
 | GimpShop | https://sourceforge.net/projects/gimpshop.mirror/?source=directory | // | //  | // | // | // | // | UWP Open Source Community | No | // |
 | Gimp| https://github.com/GNOME/gimp | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Git | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
+| HandBrake | https://github.com/HandBrake/HandBrake | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | InkScape | https://github.com/inkscape/inkscape | https://github.com/UWP-Open-Source-Community/InkscapeUWP | // | // | // | // | // | UWP Open Source Community | No | // |
 | IrfanView | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | LibreOffice | http://it.libreoffice.org/download/libreoffice-fresh/?type=src| | MPLv2 | // | // | // | // | UWP Open Source Community| No | // |
