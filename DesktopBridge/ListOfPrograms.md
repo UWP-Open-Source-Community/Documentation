@@ -10,6 +10,7 @@ Base for add new App in the list:
 | 7-Zip| https://sourceforge.net/projects/sevenzip | // |GPL-2.0 | // | // | // | // | UWP Open Source Community | No | // |
 | Atom | https://github.com/atom/atom | https://github.com/UWP-Open-Source-Community/Atom | MIT | // | // | // | // | UWP Open Source Community | No | // |
 | Audacity| https://github.com/audacity/audacity | // |GPL-2.0 | // | // | // | // | UWP Open Source Community | No | // |
+| Avogadro | https://sourceforge.net/projects/avogadro/?source=top3_dlp_t5 | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Bot Framework Channel Emulator | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | CCleaner | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Dilay| https://github.com/abau/dilay | https://github.com/UWP-Open-Source-Community/Dilay | GPL-3.0 | // | // | // | // | UWP Open Source Community | Yes | // |
@@ -30,6 +31,7 @@ Base for add new App in the list:
 | Putty | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Paint.NET |https://code.google.com/archive/p/openpdn/ | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Regard 3D | https://github.com/rhiestan/Regard3D | https://github.com/UWP-Open-Source-Community/REGARD3D | // | // | // | // | // | UWP Open Source Community | No | // |
+| Scidavis | https://sourceforge.net/projects/scidavis/files/SciDAVis/ | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Synfig | https://sourceforge.net/projects/synfig/?source=typ_redirect | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Thunderbird | // | // | MPL 1.1, GNU LGPL v2.1, GNU GPL v2 e MPL 2.0 | // | // | // | // | UWP Open Source Community | No | // |
 | VLC | https://github.com/videolan/vlc | // | GPL-2.0 | // | // | // | // | UWP Open Source Community | No | // |
