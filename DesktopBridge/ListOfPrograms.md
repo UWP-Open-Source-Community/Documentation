@@ -14,13 +14,12 @@ Base for add new App in the list:
 | CCleaner | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Dilay| https://github.com/abau/dilay | https://github.com/UWP-Open-Source-Community/Dilay | GPL-3.0 | // | // | // | // | UWP Open Source Community | Yes | // |
 | Eclipse | https://git.eclipse.org/c/ | // | Eclipse Public License | // | // | // | // | UWP Open Source Community | No | // |
-| ExeToMSI| // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | FileZilla | // | https://github.com/UWP-Open-Source-Community/FileZilla | // | // | // | // | // | UWP Open Source Community | No | // |
 | Firefox | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | GimpShop | https://sourceforge.net/projects/gimpshop.mirror/?source=directory | // | //  | // | // | // | // | UWP Open Source Community | No | // |
 | Gimp| https://github.com/GNOME/gimp | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Git | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
-| HandBrake | https://github.com/HandBrake/HandBrake | // | // | // | // | // | // | UWP Open Source Community | No | // |
+| HandBrake | https://github.com/HandBrake/HandBrake | https://github.com/UWP-Open-Source-Community/HandBrake | // | // | // | // | // | UWP Open Source Community | No | // |
 | InkScape | https://github.com/inkscape/inkscape | https://github.com/UWP-Open-Source-Community/InkscapeUWP | // | // | // | // | // | UWP Open Source Community | No | // |
 | IrfanView | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | LibreOffice | http://it.libreoffice.org/download/libreoffice-fresh/?type=src| | MPLv2 | // | // | // | // | UWP Open Source Community| No | // |
@@ -31,6 +30,6 @@ Base for add new App in the list:
 | Putty | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Paint.NET |https://code.google.com/archive/p/openpdn/ | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Regard 3D | https://github.com/rhiestan/Regard3D | https://github.com/UWP-Open-Source-Community/REGARD3D | // | // | // | // | // | UWP Open Source Community | No | // |
-| Synfig| https://sourceforge.net/projects/synfig/?source=typ_redirect | // | // | // | // | // | // | UWP Open Source Community | No | // |
+| Synfig | https://sourceforge.net/projects/synfig/?source=typ_redirect | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Thunderbird | // | // | MPL 1.1, GNU LGPL v2.1, GNU GPL v2 e MPL 2.0 | // | // | // | // | UWP Open Source Community | No | // |
 | VLC | https://github.com/videolan/vlc | // | GPL-2.0 | // | // | // | // | UWP Open Source Community | No | // |
