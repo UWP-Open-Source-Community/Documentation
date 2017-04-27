@@ -18,8 +18,8 @@ Base for add new App in the list:
 | FileZilla | // | https://github.com/UWP-Open-Source-Community/FileZilla | // | // | // | // | // | UWP Open Source Community | No | // |
 | Firefox | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | GimpShop | https://sourceforge.net/projects/gimpshop.mirror/?source=directory | // | //  | // | // | // | // | UWP Open Source Community | No | // |
-| Gimp| https://github.com/GNOME/gimp | // | // | // | // | // | // | UWP Open Source Community | No | // |
-| Git | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
+| Gimp | https://github.com/GNOME/gimp | // | // | // | // | // | // | UWP Open Source Community | No | // |
+| Git For Windows | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | HandBrake | https://github.com/HandBrake/HandBrake | https://github.com/UWP-Open-Source-Community/HandBrake | // | // | // | // | // | UWP Open Source Community | No | // |
 | InkScape | https://github.com/inkscape/inkscape | https://github.com/UWP-Open-Source-Community/InkscapeUWP | // | // | // | // | // | UWP Open Source Community | No | // |
 | IrfanView | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
@@ -34,4 +34,4 @@ Base for add new App in the list:
 | Scidavis | https://sourceforge.net/projects/scidavis/files/SciDAVis/ | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Synfig | https://sourceforge.net/projects/synfig/?source=typ_redirect | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Thunderbird | // | // | MPL 1.1, GNU LGPL v2.1, GNU GPL v2 e MPL 2.0 | // | // | // | // | UWP Open Source Community | No | // |
-| VLC | https://github.com/videolan/vlc | // | GPL-2.0 | // | // | // | // | UWP Open Source Community | No | // |
+| VLC | https://github.com/videolan/vlc | https://github.com/UWP-Open-Source-Community/VLC | GPL-2.0 | // | // | // | // | UWP Open Source Community | No | // |
