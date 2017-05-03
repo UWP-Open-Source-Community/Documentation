@@ -1,0 +1,54 @@
+1 - Convert .exe files to .msi files
+1. Download the installer of the program you want to convert (eg Notepad + +).
+2. Open the Start menu and launch the EXE2MSI program. 
+3. Click on the three dots (...) next to the executable installer file and select the installer downloaded in step.
+4. Click the Build MSI button. 
+5. At the end of the will operation, the MSI file created successfully message. 
+6. Click the OK button. 
+7. The folder containing the newly converted file will be opened. 
+
+2 - Access the platform that will enable us to transform the Win32 program into a UWP app:
+Go to https://bridge10.azurewebsites.net/, and do registration/login
+
+3 - We now convert the. msi file_it containing the necessary to install the Win32 program_ in app UWP:
+1. Click the Upload App button.
+2. Read carefully the following and click on the Agree button. 
+3. Click the Browse button and select the previously converted. msi file. 
+4. Click the Upload button and wait for the .msi file to be uploaded to the servers. 
+5. Click the Convert App button. 
+6. Will be show a window — Compilatela as follows:
+In the installer file name (case sensitive) field, leave YourSetup.msi 
+In the Version field, type the version of the app (in our case 7.3.3.0), Remember that the last number must be 0. 
+In the Silent Installer Arguments field, delete all and leave the field blank. 
+In the Package Architecture field select the architecture of the PC/tablet where the package will be distributed (in our case, having downloaded the installer to 32-bit of Notepad + +, we choose x86). 
+In the the App Executable File Name field, type the name of the .exe file that will allow you to run the program (in our case Notepad++.exe). 
+In the Package Name field, type the name to be attributed to the app (in our case NotepadUWP). 
+Click the Confirm button. 
+7. The app will be converted to 60 seconds — wait. 
+8. At the end of the operation, at the bottom will two new files:
+9. A useless. txt file.
+10. An archive in. zip format.
+11. Click the Download button near the. zip archive. 
+12. Save the archive. 
+
+Note I if you do not see anything in step 9, click the Refresh Workspace button or update the Web page.
+
+4 - We just have to install and launch the app: 
+1.  Extract all files in the archive you just downloaded.
+2. Make a double click on file auto-generated.pfx.
+3. Certificate Import Wizard will start.
+4. Select Local Computer and click Next.
+5. You will be prompted to specify the file to be imported. Click Browse ... generated.cer in the folder that contains the extracted files.
+6. Click on the next button. and select the file auto, and click Next.
+7. Click the Finish button to finish.
+
+8. Go to Settings > App > App and Features and make sure that the App Setup section, selects Allow app from any source. 
+If the operation has been successful, you will see the message import finished. Click the OK button.
+Go to Settings > Update and security > for developers > click Developer mode. Click Yes to any warning to activate. 
+
+9. Make a double click on the file appx.
+10. You will be asked to install the package? Click Install.
+11. Wait for the installation of the package. 
+
+If the operation has been successful, you will see the message that the package is ready. Press the Start button. 
+Note If you view the message in paragraph 12 PC protected by Windows, click on more information, then do it anyway.
