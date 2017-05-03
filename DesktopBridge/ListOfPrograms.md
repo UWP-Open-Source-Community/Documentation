@@ -21,7 +21,7 @@ Base for add new App in the list:
 | Gimp | https://github.com/GNOME/gimp | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Git For Windows | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | HandBrake | https://github.com/HandBrake/HandBrake | https://github.com/UWP-Open-Source-Community/HandBrake | // | // | // | // | // | UWP Open Source Community | No | // |
-| InkScape | https://github.com/inkscape/inkscape | https://github.com/UWP-Open-Source-Community/InkscapeUWP | // | // | // | // | // | UWP Open Source Community | No | // |
+| InkScape | https://github.com/inkscape/inkscape | https://github.com/UWP-Open-Source-Community/InkscapeUWP | // | // | // | // | // | UWP Open Source Communit | No | // |
 | IrfanView | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | LibreOffice | http://it.libreoffice.org/download/libreoffice-fresh/?type=src| | MPLv2 | // | // | // | // | UWP Open Source Community| No | // |
 | Mixxx | https://github.com/mixxxdj/mixxx | // | // | // | // | // | // | UWP Open Source Community | No | // |
@@ -30,7 +30,7 @@ Base for add new App in the list:
 | Opera | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Putty | // | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Paint.NET |https://code.google.com/archive/p/openpdn/ | // | // | // | // | // | // | UWP Open Source Community | No | // |
-| Regard 3D | https://github.com/rhiestan/Regard3D | https://github.com/UWP-Open-Source-Community/REGARD3D | // | // | // | // | // | UWP Open Source Community | No | // |
+| Regard 3D | https://github.com/rhiestan/Regard3D | https://github.com/UWP-Open-Source-Community/REGARD3D | // | // | // | // | // | UWP Open Source Community | UWP Open Source Community | // |
 | Scidavis | https://sourceforge.net/projects/scidavis/files/SciDAVis/ | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Synfig | https://sourceforge.net/projects/synfig/?source=typ_redirect | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Thunderbird | // | // | MPL 1.1, GNU LGPL v2.1, GNU GPL v2 e MPL 2.0 | // | // | // | // | UWP Open Source Community | No | // |
