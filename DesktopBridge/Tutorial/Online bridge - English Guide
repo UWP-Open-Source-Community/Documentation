@@ -37,7 +37,7 @@ Note I if you do not see anything in step 9, click the Refresh Workspace button 
 1.  Extract all files in the archive you just downloaded.
 2. Make a double click on file auto-generated.pfx.
 3. Certificate Import Wizard will start.
-4. Select Local Computer and click Next.
+4. Select Computer and click Next.
 5. You will be prompted to specify the file to be imported. Click Browse ... generated.cer in the folder that contains the extracted files.
 6. Click on the next button. and select the file auto, and click Next.
 7. Click the Finish button to finish.
