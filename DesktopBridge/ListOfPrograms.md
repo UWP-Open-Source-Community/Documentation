@@ -35,3 +35,4 @@ Base for add new App in the list:
 | Synfig | https://sourceforge.net/projects/synfig/?source=typ_redirect | // | // | // | // | // | // | UWP Open Source Community | No | // |
 | Thunderbird | // | // | MPL 1.1, GNU LGPL v2.1, GNU GPL v2 e MPL 2.0 | // | // | // | // | UWP Open Source Community | No | // |
 | VLC | https://github.com/videolan/vlc | https://github.com/UWP-Open-Source-Community/VLC | GPL-2.0 | // | // | // | // | UWP Open Source Community | No | // |
+| Pencil Project | https://github.com/evolus/pencil |// | GPL-2.0 | // | // | // | // | UWP Open Source Community | No | // |
