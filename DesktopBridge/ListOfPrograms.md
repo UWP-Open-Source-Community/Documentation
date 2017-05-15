@@ -1,3 +1,5 @@
+| mp3tag | http://www.mp3tag.de/en/ https://github.com/zoggy/mp3tag |// |  LGPL | // | // | // | // | UWP Open Source Community | No | // |
+40
 # List of Programs to Convert
 This is the list of applications that have to be converted in UWP using the Desktop App Converter
 
@@ -36,4 +38,5 @@ Base for add new App in the list:
 | Thunderbird | // | // | MPL 1.1, GNU LGPL v2.1, GNU GPL v2 e MPL 2.0 | // | // | // | // | UWP Open Source Community | No | // |
 | VLC | https://github.com/videolan/vlc | https://github.com/UWP-Open-Source-Community/VLC | GPL-2.0 | // | // | // | // | UWP Open Source Community | No | // |
 | Pencil Project | https://github.com/evolus/pencil |// | GPL-2.0 | // | // | // | // | UWP Open Source Community | No | // |
-| mp3tag | http://www.mp3tag.de/en/ https://github.com/zoggy/mp3tag |// |  LGPL | // | // | // | // | UWP Open Source Community | No | // |
+| Rufus | https://rufus.akeo.ie/ |// | GPL 3.0 | // | // | // | // | UWP Open Source Community | No | // |
+| Treecomp | https://sourceforge.net/projects/treecomp/ |// |  LGPL 2.0 | // | // | // | // | UWP Open Source Community | No | // |
